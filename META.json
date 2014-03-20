@@ -4,8 +4,10 @@
       "tokuhirom <tokuhirom@gmail.com>"
    ],
    "dynamic_config" : 0,
-   "generated_by" : "Minilla/v0.6.3",
-   "license" : "perl_5",
+   "generated_by" : "Minilla/v0.12.0",
+   "license" : [
+      "perl_5"
+   ],
    "meta-spec" : {
       "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
       "version" : "2"
@@ -19,7 +21,8 @@
          "share",
          "eg",
          "examples",
-         "author"
+         "author",
+         "builder"
       ]
    },
    "prereqs" : {
@@ -43,6 +46,7 @@
             "Amon2" : "0",
             "AnyEvent" : "0",
             "App::cpanminus" : "0",
+            "App::scan_prereqs_cpanfile" : "0",
             "Carton" : "0",
             "Class::Accessor::Lite" : "0",
             "Coro" : "0",
@@ -97,7 +101,7 @@
    "provides" : {
       "Task::BeLike::TOKUHIROM" : {
          "file" : "lib/Task/BeLike/TOKUHIROM.pm",
-         "version" : "0.01"
+         "version" : "0.02"
       }
    },
    "release_status" : "stable",
@@ -111,5 +115,5 @@
          "web" : "https://github.com/tokuhirom/Task-BeLike-TOKUHIROM"
       }
    },
-   "version" : "0.01"
+   "version" : "0.02"
 }

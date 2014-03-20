@@ -3,7 +3,7 @@ use 5.008005;
 use strict;
 use warnings;
 
-our $VERSION = "0.01";
+our $VERSION = "0.02";
 
 
 
@@ -47,6 +47,10 @@ A short time later, I need to switch the original library. *Sigh*
 
 Minilla is an authoring tool to maintaining CPAN modules.
 It provides best practice for managing your module.
+
+=item L<App::scan_prereqs_cpanfile>
+
+Scan prereqs from library code and generate cpanfile.
 
 =item L<App::cpanminus>
 
